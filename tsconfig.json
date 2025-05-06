@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/settingsPages/_changeFont.js", "app/settingsPages/_changeColor.js", "app/settingsPages/_changeBg.js", "app/components/_timer.js", "app/components/_selections.js", "app/components/_motivationText.js", "app/components/_buttons.js", "app/(tabs)/_shortTimer.js", "app/(tabs)/_settingsPage.tsx", "app/(tabs)/index.js", "app/context/Theme.js"  ]
+}
